@@ -67,7 +67,7 @@ class YouDao(object):
 if __name__ == '__main__':
     youdao = YouDao()
     key = input('请输入要翻译的单词：')
-    youdao.get_data(key)
+    # youdao.get_data(key)
 
 
 
